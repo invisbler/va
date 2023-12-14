@@ -1,0 +1,286 @@
+<html>
+    <head>
+        <title>HOME PAGE</title>
+
+        
+<style>
+
+
+
+
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  color: black;
+  width: 100%;
+  padding: 20px;
+}
+
+
+#Btn {
+ margin-top: -0.1px;
+}
+
+#Btn:hover {
+  background: darkblue;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topnav {
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:#fff;
+  text-align: center;
+  padding: 23px 16px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.topnav a:hover {
+  background-color: skyblue;
+  color: black;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    padding: -35PX 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -3%;
+
+}
+.logo{
+    width: 165px;
+    cursor: pointer;
+    margin-left: 47%;
+    margin-top: 22%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10 50px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: darkblue;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+body {
+background-image: url("images/background.jpg");
+ scrollbar-width: none;
+-ms-overflow-style: none;
+
+}
+body::-webkit-scrollbar {
+display: none;
+}
+.content{
+    width: 100%;
+    top: 55%;
+    position: absolute;
+    color: #fff;
+    z-index: 3;
+    text-align: center;
+    transform: translateY(-50%);
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5)
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 200px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100px;
+    line-height: 25px;
+    font-size: 18px;
+}
+button{
+  width: 5% 2.5%;
+    padding: 10px 64px;
+    text-align: center;
+    margin: 11px -7%;
+    border-radius: 65px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 3px solid green;
+    background: transparent;
+    color: transparent;
+    cursor: pointer;
+    position: fixed;
+    overflow: hidden;
+height: 15%;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+
+}
+span{
+    background: white;
+    height: 100%;
+    width: 0.9%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+button:hover span{
+    width: 30%;
+    transition: 1.7s;
+}
+
+</style>
+
+
+
+    </head>
+    <body>
+
+
+
+<!-- The video -->
+<!--<video autoplay muted loop id="myVideo">
+  <source src="video/We are hiring! - Ad Proof 1.mp4" type="video/mp4">
+</video>
+
+--> <!-- Optional: some overlay text to describe the video -->
+<div class="content"></div>
+
+
+
+<div class="topnav">
+
+ 
+    
+  
+  <a href="index.html">Home</a>
+<a href="jobs.html" target="_blank">Jobs</a>
+  <a href="about.html" target="_blank">About</a>
+ <a href="www.googlesearch">Search</a>
+  <input type="text" placeholder="Search..">
+
+  <div class="topnav-right">
+   
+  </div>
+
+</div>
+         
+        </div>
+        <div class="content">
+            <h1>FIND YOUR DREAM JOB</h1>
+            <p><b>Explore a vast array of job openings that match your skills and aspirations. Find, apply, and propel your career <br>forward effortlessly with our user-friendly job portal. Start your journey to success today.</b></p>
+            <div>
+                <button type="button" id="btn"><span></span><a href="https://forms.gle/hscpv1znKKZt77CL8" target="_blank">Login</a></button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>_______________________________</p>
+            
+            <p>@Robbin | 2023 | 12|13 - Nousad</p>
+        </div>
+
+        
+        
+    </body>
+
+
+
+
+</html>

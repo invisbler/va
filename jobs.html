@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AVAILABLE JOBS</title>
+    <link rel="stylesheet" href="jobs.css">
+ <script type="text/javascript">
+     
+
+
+
+ </script>
+
+<style>
+
+  <style>  body {
+      height: 200vh; /* Set a tall body to demonstrate scrolling */
+    }
+  
+
+
+
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+}
+
+.navbar{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    padding: 35PX 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -3%;
+}
+.logo{
+    width: 165px;
+    cursor: pointer;
+    margin-left: 8%;
+    margin-top: 4.2%;
+    margin-top: -2%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: i;
+    
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: yellowgreen;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+body {
+     
+  padding: 25px;
+background: white;
+  background-repeat: repeat;
+  background-origin: content-box;
+ 
+
+}
+
+
+   
+}
+.content h1 {
+    margin-top: 100%;
+    background-color: transparent;
+    color: ;
+    text-align: center;
+    padding: 20px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgb(73, 68, 68);
+    padding: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.job-listing {
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.job-title {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 35px;
+    text-align: center;
+}
+
+.job-description {
+    margin-top: 10px;
+      text-align: center;
+}
+
+button{
+    width: 100;
+    padding: 8px 10px;
+    text-align: center;
+    margin: 10px 77%;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid green;
+    background: transparent;
+    color: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+    border: red;
+    border-radius: 26px;
+    margin-right: 200px;
+margin-left: 122px;
+}
+span{
+    background: greenyellow;
+    height: 100%;
+    width: 0.9%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+
+}
+button:hover span{
+    width: 30%;
+    transition: 1.2s;
+}
+
+div {
+    color: #fff;
+}
+
+
+.container { 
+            width: 90%px; 
+            height: 90%px; 
+            border-radius: 300px; 
+          border: 3px solid green;
+        } 
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+
+
+  <script>
+    // Adjust the speed by changing the value of 'scrollSpeed'
+    var scrollSpeed = 2; // 
+
+    function autoScroll() {
+      window.scrollBy(0, scrollSpeed);
+    }
+
+    // Set the interval for the auto-scroll
+    var scrollInterval = setInterval(autoScroll, 20);
+
+    // Stop the auto-scroll on mouseover
+    document.body.addEventListener('mouseover', function() {
+      clearInterval(scrollInterval);
+    });
+
+    // Resume auto-scroll on mouseout
+    document.body.addEventListener('mouseout', function() {
+      scrollInterval = setInterval(autoScroll, 20);
+    });
+  </script>
+
+
+
+
+
+    <div class="background-image"></div>
+    <div class="navbar">
+        <img src="images/download.png" class="logo">
+        <h1>
+        <ul align="center">
+            <li><a href="index.html">Previous</a></li>
+
+   
+        </ul></h1>
+    </div>
+    <div class="content">
+        <center>
+        <div class="container">
+            <div class="job-listing"></div>
+            <div class="job-title" id="myContainer"><b>Software Developer</b></div>
+            <div class="job-description">-The leading company (META) is looking for a talented software developer to join their team.</div>
+           
+
+            <div>
+               <button id="btn" type="button"><span></span><a href="https://forms.gle/hscpv1znKKZt77CL8" target="_blank">APPLY</a></button> 
+            </div>
+        </div>
+        <div class="container">
+            <div class="job-listing"></div>
+            <div class="job-title" id="myContainer">Graphic Designer</div>
+            <div class="job-description">-Well industrial expert company (GOOGLE) wants <b>graphic designer.</b></div>
+            <div>
+                <button type="button"><span></span><a href="https://forms.gle/hscpv1znKKZt77CL8">APPLY</a></button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="job-listing"></div>
+            <div class="job-title" id="myContainer">IT Technician</div>
+            <div class="job-description">IKMAN.LK - We are seeking a talented IT technician to work on various technical projects.</div>
+            <div>
+                <button type="button"><span></span><a href="https://forms.gle/hscpv1znKKZt77CL8">APPLY</a></button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="job-listing"></div>
+            <div class="job-title" id="myContainer">Regional Manager</div>
+            <div class="job-description">-DIALOG AXIATA is seeking a skilled Regional Manager to work at Kalmunai branch office.</div>
+            <div>
+                <button type="button"><span></span><a href="https://forms.gle/hscpv1znKKZt77CL8">APPLY</a></button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="job-listing"></div>
+            <div class="job-title" id="myContainer">Branch Manager</div>
+            <div class="job-description">-DIALOG AXIATA is seeking a skilled Branch Manager to work at Kalmunai branch office.</div>
+            <div>
+                <button type="button"><span></span><a href="https://forms.gle/hscpv1znKKZt77CL8">APPLY</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
